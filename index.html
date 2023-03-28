@@ -11,26 +11,24 @@
   <body>
     <header class="header">
       <div class="header-div">
-        <h1>Etch A Sketch</h1>
+        <h1>Etch-A-Sketch</h1>
       </div>
     </header>
     <div class="main-cointainer">
       <main>
+        <div class="buttons">
         <button class="button" id="ColorBtn" onclick="changeColor('Black')">Black</button>
         <button class="button" id="RandomBtn" onclick="changeColor('random')">Random</button>
-        <button class="button" id="ErasorBtn" onclick="changeColor('Lightgrey')">Erasor</button>
-        <button class="button" id="ClearBtn" onclick="resetBoard()">Clear</button>
-        <div class="board"></div> 
-      </div>
+        <button class="button" id="ErasorBtn" onclick="changeColor('Lightgrey')">Eraser</button>
+        <button class="button" id="ClearBtn" onclick="resetBoard()">Clear</button></div>
+        <div class="board-main"><div class="board"></div> 
+      </div></div><div class="sizeInput">
         <input type="text" name="sizeText" Value="1-64" onchange="changeSize(this.value)">      
-          <button class="button" id="SizeBtn" >Size</button>
+          <button class="button" id="SizeBtn" >Pixel Size</button></div>
       </main>
     </div>
     <footer class="footer">
-      <p>Thatzwazup</p>
-      <a href="https://github.com/Thatzwazup"
-        ><img src="github.png" alt="Github Logo Error"
-      /></a>
+      <a href="https://github.com/Thatzwazup"><img src="github.png" alt="Github Logo Error" width="50px"/></a>
     </footer>
     <script src="index.js"></script>
   </body>

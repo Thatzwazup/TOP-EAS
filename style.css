@@ -1,5 +1,60 @@
+
+
+body{
+background-color: rgba(255, 0, 0, 0.833);
+}
+
+header{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+button{
+background-color: white;
+font-size: 24px;
+width: max-content;
+height: 40px;
+border-radius: 6px; 
+border: none;
+cursor: pointer;
+transition: all;
+}
+
+button:active{
+opacity: .3;
+    }
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+    padding: .5rem;
+
+}
+.board-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .board{
+    display:flex;
+    padding: 3rem;
     width: 500px;
     height: 500px;
     display: grid;
 }
+
+.sizeInput{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+footer{
+    background-color: lightgrey;
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+padding:1rem;}
