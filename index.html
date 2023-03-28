@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch A Sketch</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-div">
+        <h1>Etch A Sketch</h1>
+      </div>
+    </header>
+    <div class="main-cointainer">
+      <main>
+        <button class="button" id="ColorBtn" onclick="changeColor('Black')">Black</button>
+        <button class="button" id="RandomBtn" onclick="changeColor('random')">Random</button>
+        <button class="button" id="ErasorBtn" onclick="changeColor('Lightgrey')">Erasor</button>
+        <button class="button" id="ClearBtn" onclick="resetBoard()">Clear</button>
+        <div class="board"></div> 
+      </div>
+        <input type="text" name="sizeText" Value="1-64" onchange="changeSize(this.value)">      
+          <button class="button" id="SizeBtn" >Size</button>
+      </main>
+    </div>
+    <footer class="footer">
+      <p>Thatzwazup</p>
+      <a href="https://github.com/Thatzwazup"
+        ><img src="github.png" alt="Github Logo Error"
+      /></a>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
